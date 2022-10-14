@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap");
 
 body {
+  scroll-behavior: smooth;
   font-family: "Oswald", sans-serif;
   color: #ffffff;
   background-image: url("Images/spacebackground.jpg");
@@ -38,33 +39,6 @@ a:hover,
   font-size: 1.7em;
 }
 
-/* HOME PAGE */
-/* .frontpage {
-  background-image: url(Images/stars.jpg);
-  background-size: cover;
-  background-repeat: repeat;
-} */
-
-.background {
-  background-image: url(Images/stars.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  /* background-repeat: repeat; */
-  background-size: cover;
-  height: 300vh;
-  padding-top: 100vh;
-}
-.curtain {
-  background-image: url(Images/moonpng.png);
-  top: 0;
-  position: sticky;
-  position: -webkit-sticky;
-  min-height: 75%;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .tablinks {
   font-family: "Oswald", sans-serif;
   cursor: pointer;
@@ -85,6 +59,26 @@ a:hover,
   width: 200px;
   color: #ffffff;
   font-size: 1.7em;
+}
+
+/* HOME PAGE */
+.background-frontpage {
+  background-image: url(/Images/stars.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  /* background-size: cover; */
+  width: 100%;
+}
+
+.curtain {
+  background-image: url(Images/moonpng.png);
+  /* top: 0;
+  position: sticky;
+  position: -webkit-sticky; */
+  min-height: 70vh;
+  background-position: center;
+  background-size: contain;
 }
 
 /* PLANETS PAGE */
