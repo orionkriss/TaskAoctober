@@ -1,0 +1,260 @@
+/* COMMON */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap");
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  background-image: url("Images/spacebackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: block;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: cover;
+  font-family: Oswald;
+  font-weight: 400;
+  letter-spacing: 5px;
+  line-height: 1.8em;
+  color: rgb(255, 255, 255);
+  max-width: fit-content;
+}
+a,
+/* .header, */ 
+.submit {
+  font-size: 1.5em;
+  transition: ease 0.5s;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+a:hover,
+/* .header:hover, */
+.submit:hover {
+  font-weight: bolder;
+  font-size: 1.7em;
+}
+
+.tablinks {
+  font-family: "Oswald", sans-serif;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: transparent;
+  height: 50px;
+  width: 200px;
+  color: #ffffff;
+  font-size: 1.5em;
+  transition: all 0.5s ease;
+}
+.tablinks:hover {
+  font-family: "Oswald", sans-serif;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: transparent;
+  height: 50px;
+  width: 200px;
+  color: #ffffff;
+  font-size: 1.7em;
+}
+
+/* HOME PAGE */
+.background-frontpage {
+  background-image: url(/Images/stars.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  /* background-size: cover; */
+  width: 100%;
+}
+
+.curtain {
+  background-image: url(Images/moonpng.png);
+  top: 0;
+  position: sticky;
+  position: -webkit-sticky;
+  min-height: 70vh;
+  /* background-position: center; */
+  background-size: contain;
+}
+
+/* PLANETS PAGE */
+.parallax {
+  background-image: url(Images/stars.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  padding-top: 300px;
+}
+.card {
+  /* border: 6px rgb(81, 197, 81) solid; */
+  background-color: #b7b7b722;
+  border-radius: 0.5em;
+  padding: 1em;
+  margin: 2em 6em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* .p-curtain {
+  /* border: 6px rgb(128, 58, 0) solid; */
+
+.planet {
+  /* border: 6px rgb(0, 68, 128) solid; */
+  max-width: 30em;
+  max-height: 20em;
+  position: relative;
+  top: -10em;
+  left: -3em;
+}
+
+.textbox {
+  /* border: 6px rgb(219, 147, 59) solid; */
+  position: relative;
+  left: -5em;
+}
+
+.headline {
+  /* border: 6px rgb(224, 218, 218) solid; */
+  font-size: 3.5em;
+  letter-spacing: 0.5em;
+  padding-left: 2em;
+}
+
+.info {
+  /* border: 6px rgb(175, 77, 200) solid; */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.facts {
+  /* border: 6px rgb(221, 236, 145) solid; */
+  width: 25%;
+}
+
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1em;
+  padding-bottom: 4px;
+}
+
+.text {
+  /* border: 6px rgb(145, 236, 225) solid; */
+  width: 75%;
+  padding: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link {
+  font-size: 1em;
+}
+
+/* CONTACT PAGE*/
+.submit {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  height: 100%;
+  margin: auto;
+  font-size: 1.1em;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: 1.8em;
+  word-spacing: 5em;
+  text-align: center;
+  /* border-style: solid;
+  border-color: #666; */
+  max-width: 800px;
+  letter-spacing: 3px;
+}
+a {
+  text-decoration: none;
+}
+.form {
+  max-width: 500px;
+  display: block;
+  height: 100%;
+  margin: 30px auto auto auto;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #74cac9;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2em;
+}
+form {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Info {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #74cac9;
+}
+input,
+textarea,
+select {
+  background-color: #86868600;
+  font-family: Oswald;
+  border: transparent;
+  cursor: auto;
+  color: #e8eff2b6;
+  font-size: 0.8em;
+}
+::placeholder {
+  color: #e8eff2b6;
+}
+.active {
+  font-weight: bold;
+}
+.hubble {
+  max-width: 500px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  border-radius: 5%;
+}
+
+.text2 {
+  width: 75%;
+  padding-left: 7em;
+  padding-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+
+.card2 {
+  /* border: 6px rgb(81, 197, 81) solid; */
+  background-color: #b7b7b722;
+  border-radius: 0.5em;
+  padding: 1em;
+  margin: 2em 6em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}

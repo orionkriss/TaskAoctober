@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us!</title>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body class="body-contact">
+    <!-- <div class="Info">
+      <h1>Contact</h1>
+    </div> -->
+    <h1 class="header"><a href="/Home/index.html">HORIZON</a></h1>
+    <div class="navbar">
+      <a href="/Home/index.html">Home</a>
+      <a href="/Planets/planets.html">Planets</a>
+      <a class="active" href="/Contact/contact.html">Contact</a>
+      <a href="/Telescopes/telescopes.html">Telescopes</a>
+    </div>
+    <div class="form">
+      <fieldset>
+        <legend class="legend">Contact us!</legend>
+        <form class="email">
+          <label for="email">Email:</label>
+          <input type="email" placeholder="example@hotmail.com" required />
+        </form>
+        <form class="password">
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            placeholder="Password"
+            required
+            maxlength="20"
+            minlength="5"
+          />
+          <hr />
+        </form>
+        <form class="feedback">
+          <label for="feedback">Do you have any feedback for us?</label> <br />
+          <textarea
+            placeholder="This is what i think you should do..."
+          ></textarea>
+        </form>
+        <form class="dob">
+          <label for="dob">Date of Birth:</label> <br />
+          <input type="date" min="1.1.1950" max="30.12.2020"
+        </form>
+        <hr />
+        <form class="quiz">
+          <label for="quiz">Would you like promotional emails?</label> <br />
+          <select id="quiz" name="quiz">
+            <option value="choose" selected>choose</option>
+            <option value="no">no</option>
+            <option value="yes">yes</option>
+          </select>
+        </form>
+        <form class="submit">
+          <label for="submit"></label>
+          <input type="submit" />
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>
