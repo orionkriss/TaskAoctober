@@ -56,8 +56,18 @@ a:hover,
 }
 .curtain {
   background-image: url(Images/moonpng.png);
-  top: 0;
   position: sticky;
+  bottom: 0;
+  position: -webkit-sticky;
+  min-height: 75%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.content {
+  background-image: url(Images/sky.png);
+  position: sticky;
+  bottom: 0;
   position: -webkit-sticky;
   min-height: 75%;
   background-size: contain;
